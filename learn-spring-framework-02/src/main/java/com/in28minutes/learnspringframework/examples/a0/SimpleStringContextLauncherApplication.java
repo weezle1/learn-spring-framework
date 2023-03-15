@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 
 @Configuration
-@ComponentScan("com.in28minutes.learnspringframework.examples.a1")
+@ComponentScan("com.in28minutes.learnspringframework.examples.a0")
 public class SimpleStringContextLauncherApplication {
 
 	public static void main(String[] args) {

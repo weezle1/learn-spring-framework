@@ -20,7 +20,7 @@ class YourBusinessClass{
 	//OR
 	//Constructor Injection - Only method that Autowired is not required, will still output objects
 	//Spring Team recommends Constructor Injection always
-	@Autowired
+	//@Autowired
 	public YourBusinessClass(Dependency1 dependency1, Dependency2 dependency2) {
 		super();
 		System.out.println("Constructor Injection - YourBusinessClass ");
@@ -57,7 +57,7 @@ class Dependency2{
 }
 
 @Configuration
-@ComponentScan("com.in28minutes.learnspringframework.examples.a0")
+@ComponentScan("com.in28minutes.learnspringframework.examples.a1")
 public class DepInjectionLauncherApplication {
 
 	public static void main(String[] args) {

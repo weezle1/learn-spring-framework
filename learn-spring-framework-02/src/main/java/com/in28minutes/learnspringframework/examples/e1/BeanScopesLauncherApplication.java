@@ -19,7 +19,7 @@ class NormalClass {
  * 
  * @author Westl
  *
- * @Scope ensures that each time PrototypeClass is called, a new instance of the Bean is created
+ * @Scope ensures that each time PrototypeClass is called, a new instance of the Bean is created - testing
  */
 
 @Scope(value=ConfigurableBeanFactory.SCOPE_PROTOTYPE)

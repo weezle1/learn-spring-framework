@@ -19,8 +19,7 @@ and exit the interface. Check out this ATM/simple banking app to help you work t
 public class bankApp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Atm atm = new Atm();
 	}
 
 }

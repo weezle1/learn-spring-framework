@@ -2,7 +2,7 @@ package BankingApplication;
 
 /***
  * 
- * @author Westl
+ * @author Westley
  *
  *https://bootcamp.cvn.columbia.edu/blog/java-projects-for-beginners-to-gain-skills/
  *

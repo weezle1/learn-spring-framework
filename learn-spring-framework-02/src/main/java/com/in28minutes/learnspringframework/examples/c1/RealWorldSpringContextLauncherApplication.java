@@ -10,12 +10,12 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan
-public class RealWorldContextLauncherApplication {
+public class RealWorldSpringContextLauncherApplication {
 
 	public static void main(String[] args) {
 		
 		try(AnnotationConfigApplicationContext context = 
-				new AnnotationConfigApplicationContext(RealWorldContextLauncherApplication.class)){
+				new AnnotationConfigApplicationContext(RealWorldSpringContextLauncherApplication.class)){
 			
 			Arrays.stream(context.getBeanDefinitionNames())
 				.forEach(System.out::println);
